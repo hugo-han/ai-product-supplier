@@ -1,0 +1,15 @@
+This is a placeholder PPTX file for "AIBP_Agent_Report_2026-07-06".
+
+Note: A real .pptx binary could not be generated in this environment. Instead, the repository contains:
+
+- AIBP_Agent_Report_2026-07-06.md (full slide text and prompts): https://github.com/hugo-han/ai-product-supplier/blob/main/AIBP_Agent_Report_2026-07-06.md
+- slide1_prompt.png (contains the hand-drawn style prompt for slide 1)
+- slide2_prompt.png (contains the hand-drawn style prompt for slide 2)
+- slide3_prompt.png (contains the hand-drawn style prompt for slide 3)
+
+Please generate or replace the PNG prompt files with actual images (using an image generator or designer), then create a real PPTX by inserting those images into three slides titled:
+1) 背景与目标
+2) 规划与演示
+3) 卡点与我们需要的支持
+
+If you would like, I can update/replace the PPTX after you upload generated images to the repo.
