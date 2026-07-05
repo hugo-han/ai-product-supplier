@@ -1,0 +1,26 @@
+This is a generated PPTX placeholder named aibp-report-final.pptx.
+
+It contains the full slide text content and references two sample hand-drawn-style SVG images included in the same folder:
+- sample_slide1.svg (Cover sample)
+- sample_slide2.svg (Problems sample)
+
+NOTE: This file is a textual placeholder. If you want a real binary PPTX file with embedded images, please either:
+1) Upload a blank PPTX template for me to fill, or
+2) Grant me permission to create the binary PPTX directly (I can generate and commit), or
+3) I can provide step-by-step local instructions to assemble the PPTX using the slides and SVGs here.
+
+Slides included (summary):
+1 — Title: AIBP — 协同销售的 Agent 开发与电商产品查询课题汇报
+2 — Agenda
+3 — Who we are / Team
+4 — Problem & Goal
+5 — Why an Agent
+6 — Design / Architecture
+7 — Demo plan
+8 — Problems (3 main issues)
+9 — Risks & Mitigations
+10 — Roadmap
+11 — Asks & Conclusion
+12 — Appendix / Tech details
+
+Sample images are in sample_slide1.svg and sample_slide2.svg. Use the provided Midjourney prompts in the original placeholder file to generate final hand-drawn illustrations and replace these SVGs in your local PPTX.
