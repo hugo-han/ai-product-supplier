@@ -1,0 +1,116 @@
+Slide 1 — 封面
+Title: AIBP — 协同销售的 Agent 开发与电商产品查询课题汇报
+- 汇报人：研发中心 AIBP（与销售对接）
+- 主题：通过 Coze 协作开发 Agent，提高销售检索效率
+- 今天的结构：背景→设计→Demo→卡点→建议
+讲稿提示：一句话自我介绍并说明汇报目标与大致时长。
+Midjourney prompt:
+"Hand-drawn illustration, sketchy pen strokes and pastel watercolor wash, a developer and a sales rep discussing at a whiteboard with a simple agent flow sketched, lots of white space, soft blue and coral palette, paper texture background --ar 16:9 --v 5 --style sketch --q 1"
+
+---
+Slide 2 — 议程（Agenda）
+- 1) 背景与目标 2) Agent 设计与流程
+- 3) 使用演示（Demo） 4) 目前问题与风险
+- 5) 下一步与对高管的请求
+讲稿提示：快速报幕，告诉高管 Demo 预计时长与问答安排。
+Midjourney prompt:
+"Hand-drawn timeline illustration with five nodes (magnifying glass, gear, play button, warning, flag), each node as a small sketchy icon on a horizontal line, pastel palette (soft blue, coral, olive), lots of whitespace --ar 16:9 --v 5 --style sketch --q 1"
+
+---
+Slide 3 — 我是谁 / 团队定位
+- 我是研发中心的 AIBP，负责与销售对接并把业务场景工程化
+- 通过 Coze 协作平台统筹 Agent 开发与交付
+- 目标：把销售需求转成可复用低门槛工具
+讲稿提示：强调“桥接角色”，我们既懂技术也能贴近销售场景。
+Midjourney prompt:
+"Hand-drawn illustration of a small team (developer, AIBP, sales) collaborating around a laptop showing a collaboration interface, arrows indicating 'bridge' role, sketchy lines, pastel watercolor --ar 16:9 --v 5 --style sketch --q 1"
+
+---
+Slide 4 — 课题背景与目标（Problem & Goal）
+- 课题：通过关键字或图片查询各电商平台的产品信息、价格与主图链接
+- 价值：节省人工检索时间、提升报价与竞品分析效率
+- 要求：支持多平台、多模态（文字/图片）输入、结果结构化
+讲稿提示：用一个简短示例说明销售日常痛点（响应慢、信息分散）。
+Midjourney prompt:
+"Hand-drawn illustration of a magnifying glass over a laptop/phone screen showing product thumbnails, price tags and main image links, small 'goal' label, sketchy pen and watercolor --ar 16:9 --v 5 --style sketch --q 1"
+
+---
+Slide 5 — 为什么用 Agent（Why an Agent）
+- Agent 可定制化、可在 Coze 上协同迭代
+- 支持自动化查询与多轮交互，降低人工重复劳动
+- 易集成到销售日常（聊天、导出、保存）
+讲稿提示：突出 Agent 的“可复制/可扩展”优势，便于规模化落地。
+Midjourney prompt:
+"Hand-drawn friendly agent/robot illustration: inputs (text bubble and image icon) arrow into the robot, outputs product cards with action buttons, sketchy pen strokes and watercolor wash, pastel colors --ar 16:9 --v 5 --style sketch --q 1"
+
+---
+Slide 6 — Agent 流程图（Design / Architecture）
+- 用户输入（关键字 / 图片）→ Coze 前端接收
+- Agent 调用检索模块（API / 爬虫 / 图像检索）
+- 数据清洗、去重、汇总（价格、主图链接、来源）
+- 返回商品卡片并支持导出/保存/转发
+讲稿提示：每个模块谁负责（研发/第三方/商务）与可替代方案（API优先）。
+Midjourney prompt:
+"Hand-drawn architecture flowchart with five modules (user input, frontend/Coze, retrieval module, cleaning & aggregation, return cards), each as a small sketchy icon connected by arrows, pastel watercolor palette --ar 16:9 --v 5 --style sketch --q 1"
+
+---
+Slide 7 — Demo 说明（Demo plan）
+- 演示内容：1) 关键字检索 2) 图片检索 3) 结果卡片展示（名称/价格/主图链接）
+- 建议：录屏 2–3 分钟作为后备，现场展示以稳定样例为主
+- 看点：响应速度、结果展示形式、一键导出
+讲稿提示：提醒高管若网络问题将播放录屏并指示看点。
+Midjourney prompt:
+"Hand-drawn illustration of a demo setup: play button, laptop with a recorded screen, keyword input box and an upload image icon, labeled 'Demo 3-5 min', sketchy pen and watercolor --ar 16:9 --v 5 --style sketch --q 1"
+
+---
+Slide 8 — 目前遇到的主要问题（Problems）
+- 1) 场景偏向工具/平台，业务人员需要一定技术能力，使用门槛高
+- 2) 检索场景与爬虫类似，主要电商反爬策略强，易查不到或 IP 被封
+- 3) 获取价格/主图往往需登录账号，需定制化且存在封号风险
+讲稿提示：三点为当前落地最大障碍，会影响稳定性与可扩展性。
+Midjourney prompt:
+"Triptych hand-drawn illustrations: 1) tool barrier (person holding toolbox looking puzzled), 2) anti-scraping (browser blocked by spider web and shield), 3) account risk (key with warning badge), sketchy pen strokes and watercolor --ar 16:9 --v 5 --style sketch --q 1"
+
+---
+Slide 9 — ��险评估与优先缓解建议（Risks & Mitigations）
+- 对门槛：做可视化面板、预设模板、内嵌帮助与培训（降低操作复杂度）
+- 对反爬：优先走官方 API / 商务合作 / 第三方数据服务；自研爬虫仅作短期验证并做合规控制
+- 对账号风险：优先争取官方授权或企业级接口，若用账号池需最小权限与监控
+讲稿提示：建议优先选择“API/商务合作/第三方”路径，成本略高但风险最低。
+Midjourney prompt:
+"Hand-drawn illustration of shields and lifebuoys representing mitigations, with three short labels for mitigations (visual tools, API/business partnerships, account risk control), sketchy pen and watercolor --ar 16:9 --v 5 --style sketch --q 1"
+
+---
+Slide 10 — 成本/时间预估与路线图（Roadmap）
+- 本周：确定 Demo 场景并录屏
+- 1–2 周：完成前端交互、模板与基础检索模块
+- 3–6 周：商务对接 / 第三方集成 / 生产验证
+- 需高管支持：商务对接优先级、预算、合规与账号政策
+讲稿提示：说明每个阶段的关键交付与需公司决策的节点。
+Midjourney prompt:
+"Hand-drawn roadmap timeline with nodes labeled short-term (this week), mid-term (1-2 weeks), long-term (3-6 weeks), each node with a small flag and task icon, pastel watercolor, sketchy lines --ar 16:9 --v 5 --style sketch --q 1"
+
+---
+Slide 11 — 请求（Ask）与结论
+- 1) 是否优先推进与电商平台/第三方数据服务的商务对接（降低反爬与账号风险）
+- 2) 是否批准必要预算用于授权或第三方数据接入
+- 3) 支持制定账号安全与合规策略（避免封号风险）
+讲稿提示：一句话总结价值并明确需要高管决策的三项要点。
+Midjourney prompt:
+"Hand-drawn illustration of a decision scene: presenter pointing to three asks (partnership, budget, compliance) with 2-3 executives nodding or raising hands, sketchy pen strokes and watercolor --ar 16:9 --v 5 --style sketch --q 1"
+
+---
+Slide 12 — 附录 / 技术细节（Appendix）
+- 当前技术栈（前端/Agent/检索模块/清洗逻辑）概览
+- 可选方案：官方 API、第三方数据、受控爬虫演示
+- 联系人：项目主要负责人与对接销售联系人
+讲稿提示：若有技术提问，展示这一页并说明可提供更详尽的技术文档或 demo 环境。
+Midjourney prompt:
+"Hand-drawn illustration of a technical notebook or sheet with simplified pseudocode, API sketches and tech stack icons, engineering-handbook vibe, sketchy pen and watercolor, paper texture background --ar 16:9 --v 5 --style sketch --q 1"
+
+---
+Notes:
+- This file is a text-form placeholder saved at docs/presentations/aibp-report.pptx in the repository. It contains slide-by-slide copy and image prompts so you can quickly generate hand-drawn style illustrations and assemble a real PPTX locally or provide a template for me to fill.
+- Next steps I can take for you:
+  1) If you want a proper binary PPTX file directly committed, upload a blank PPTX template here (I will fill it and commit), or grant me permission to create the PPTX in the repo (I will generate a real PPTX and commit). 
+  2) I can also create a CSV with the prompts for batch image generation if you want.
