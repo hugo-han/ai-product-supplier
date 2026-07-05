@@ -1,0 +1,16 @@
+{
+  "slides": [
+    {"num": 1, "title": "AIBP — 协同销售的 Agent 开发与电商产品查询课题汇报", "bullets": ["汇报人：研发中心 AIBP（与销售对接）","通过 Coze 协作开发 Agent，提高销售检索效率","今天的结构：背景→设计→Demo→卡点→建议"], "prompt": "Hand-drawn illustration... (see placeholder)"},
+    {"num": 2, "title": "议程", "bullets": ["背景与目标","Agent 设计与流程","使用演示（Demo）","目前问题与风险","下一步与请求" ], "prompt": "Hand-drawn timeline illustration..."},
+    {"num": 3, "title": "我是谁 / 团队定位", "bullets": ["我是研发中心的 AIBP，负责与销售对接并把业务场景工程化","通过 Coze 协作平台统筹 Agent 开发与交付","目标：把销售需求转成可复用低门槛工具"], "prompt": "Hand-drawn team illustration..."},
+    {"num": 4, "title": "课题背景与目标", "bullets": ["通过关键字或图片查询各电商平台的产品信息、价格与主图链接","价值：节省人工检索时间、提升报价与竞品分析效率","要求：支持多平台、多模态输入、结果结构化"], "prompt": "Hand-drawn magnifying glass over screen..."},
+    {"num": 5, "title": "为什么用 Agent", "bullets": ["Agent 可定制化、可在 Coze 上协同迭代","支持自动化查询与多轮交互，降低人工重复劳动","易集成到销售日常（聊天、导出、保存）"], "prompt": "Hand-drawn friendly agent robot..."},
+    {"num": 6, "title": "Agent 流程图（Design / Architecture）", "bullets": ["用户输入（关键字 / 图片）→ Coze 前端接收","Agent 调用检索模块（API / 爬虫 / 图像检索）","数据清洗、去重、汇总（价格、主图链接、来源）","返回商品卡片并支持导出/保存/转发"], "prompt": "Hand-drawn flowchart..."},
+    {"num": 7, "title": "使用演示（Demo plan）", "bullets": ["演示内容：关键字检索、图片检索、结果卡片展示（名称/价格/主图链接）","建议：录屏 2–3 分钟作为后备，现场展示以稳定样例为主","看点：响应速度、结果展示形式、一键导出"], "prompt": "Hand-drawn demo setup..."},
+    {"num": 8, "title": "目前遇到的主要问题（Problems）", "bullets": ["场景偏向工具/平台，业务人员需一定技术能力，使用门槛高","检索场景与爬虫类似，主要电商反爬策略强，易查不到或 IP 被封","获取价格/主图往往需登录账号，需定制化且存在封号风险"], "prompt": "Triptych hand-drawn illustrations..."},
+    {"num": 9, "title": "风险评估与优先缓解建议（Risks & Mitigations）", "bullets": ["降低门槛：可视化面板、预设模板、内嵌帮助与培训","对反爬：优先走官方 API / 商务合作 / 第三方数据服务","对账号风险：争取官方授权或企业级接口，若用账号池需最小权限与监控"], "prompt": "Hand-drawn shields and lifebuoys..."},
+    {"num": 10, "title": "成本/时间预估与路线图（Roadmap）", "bullets": ["本周：确定 Demo 场景并录屏","1–2 周：完成前端交互、模板与基础检索模块","3–6 周：商务对接 / 第三方集成 / 生产验证"], "prompt": "Hand-drawn roadmap timeline..."},
+    {"num": 11, "title": "请求（Ask）与结论", "bullets": ["是否优先推进与电商平台/第三方数据服务的商务对接","是否批准必要预算用于授权或第三方数据接入","支持制定账号安全与合规策略（避免封号风险）"], "prompt": "Hand-drawn decision scene..."},
+    {"num": 12, "title": "附录 / 技术细节（Appendix）", "bullets": ["当前技术栈（前端/Agent/检索模块/清洗逻辑）概览","可选方案：官方 API、第三方数据、受控爬虫演示","联系人：项目主要负责人与对接销售联系人"], "prompt": "Hand-drawn technical notebook..."}
+  ]
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <rect width="100%" height="100%" fill="#F7F3E9"/>
+  <text x="120" y="140" font-family="Arial" font-size="48" fill="#1E1E1E">使用演示（Demo 计划）</text>
+  <text x="120" y="260" font-family="Arial" font-size="28" fill="#333">• 演示：关键字检索、图片检索、结果卡片展示（名称/价格/主图）</text>
+  <text x="120" y="320" font-family="Arial" font-size="28" fill="#333">• 建议：录屏 2–3 分钟作为后备，现场用稳定样例</text>
+  <text x="120" y="380" font-family="Arial" font-size="28" fill="#333">• 看点：响应速度、结果准确性、一键导出</text>
+</svg>

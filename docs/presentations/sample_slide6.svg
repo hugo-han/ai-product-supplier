@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <rect width="100%" height="100%" fill="#F7F3E9"/>
+  <text x="120" y="120" font-family="Arial" font-size="42" fill="#1E1E1E">Agent 流程图（设计 / 架构）</text>
+  <text x="120" y="220" font-family="Arial" font-size="26" fill="#333">• 用户输入（关键字 / 图片）→ Coze 前端接收</text>
+  <text x="120" y="270" font-family="Arial" font-size="26" fill="#333">• Agent 调用检索模块（API / 爬虫 / 图像检索）</text>
+  <text x="120" y="320" font-family="Arial" font-size="26" fill="#333">• 数据清��、去重、汇总（价格、主图链接、来源）</text>
+  <text x="120" y="370" font-family="Arial" font-size="26" fill="#333">• 返回商品卡片并支持导出/保存/转发</text>
+</svg>

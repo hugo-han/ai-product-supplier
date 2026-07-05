@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <rect width="100%" height="100%" fill="#F7F3E9"/>
+  <text x="120" y="140" font-family="Arial" font-size="48" fill="#1E1E1E">附录 / 技术细节</text>
+  <text x="120" y="260" font-family="Arial" font-size="28" fill="#333">• 当前技术栈：前端 / Agent / 检索模块 / 清洗逻辑</text>
+  <text x="120" y="320" font-family="Arial" font-size="28" fill="#333">• 可选方案：官方 API、第三方数据、受控爬虫演示</text>
+  <text x="120" y="380" font-family="Arial" font-size="28" fill="#333">• 联系人：项目负责人与对接销售联系人</text>
+</svg>

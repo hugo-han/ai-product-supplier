@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <rect width="100%" height="100%" fill="#F7F3E9"/>
+  <text x="120" y="140" font-family="Arial" font-size="48" fill="#1E1E1E">课题背景与目标</text>
+  <text x="120" y="260" font-family="Arial" font-size="28" fill="#333">• 通过关键字或图片查询各电商平台的产品信息、价格与主图链接</text>
+  <text x="120" y="320" font-family="Arial" font-size="28" fill="#333">• 价值：节省人工检索时间、提升报价与竞品分析效率</text>
+  <text x="120" y="380" font-family="Arial" font-size","28" fill="#333">• 要求：支持多平台、多模态输入、结果结构化</text>
+</svg>
